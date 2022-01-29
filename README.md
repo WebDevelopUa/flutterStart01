@@ -15,6 +15,8 @@ Flutter Start 01 - App v.2.8.1
 * `d:\projects\flutter_01 flutter run`
 * To hot restart changes while running, press in Terminal: "r" or "R".
 * Visual Studio Code => `lib\main.dart` => right click => Run Without Debugging
+* `d:\projects\flutter_01 dart fix`
+* `netsh winsock reset`
 
 ---------------------
 
@@ -33,5 +35,10 @@ Flutter Start 01 - App v.2.8.1
     * [commandlinetools-win-8092744_latest.zip](https://developer.android.com/studio#:~:text=commandlinetools%2Dwin%2D8092744_latest.zip)
     * Android SDK
     * [Dart SDK archive](https://dart.dev/get-dart/archive)
+    * [JDK 17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 * [macOS install](https://docs.flutter.dev/get-started/install/macos)
 * [Linux install](https://docs.flutter.dev/get-started/install/linux)
+* [Android Studio Fix](https://intellij-support.jetbrains.com/hc/en-us/articles/360007568559-Start-Failed-Internal-error-recovering-IDE-to-the-working-state-after-the-critical-startup-error) => `netsh winsock reset`
+clear PATHs: `C:\Users\xxx\AppData\Roaming\JetBrains` ||`C:\Users\xxx\AppData\Local\Google` || `C:\Users\xxx\AppData\Local\npm-cache`
+* Android Studio => Appearance => Path Variables => KOTLIN_BUNDLED	C:\Users\Dell\AppData\Roaming\Google\AndroidStudio2021.1\plugins\Kotlin\kotlinc
+* Android SDK => Optimize Disk Space
