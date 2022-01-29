@@ -13,6 +13,8 @@ Flutter Start 01 - App v.2.8.1
 * `d:\flutter doctor --android-licenses`
 * `d:\projects\flutter flutter create flutter_01`
 * `d:\projects\flutter_01 flutter run`
+* To hot restart changes while running, press in Terminal: "r" or "R".
+* Visual Studio Code => `lib\main.dart` => right click => Run Without Debugging
 
 ---------------------
 
