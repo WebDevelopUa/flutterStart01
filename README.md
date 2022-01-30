@@ -69,5 +69,6 @@ flutter config --enable-web
 * Output Directory: `build/web`
 * Install Command:
   `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && ls && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web`
-* Or: `
-  Solution: you can just use "git checkout 2.2.3" to use a specific version. Example of my bash script: #!/bin/bash  if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && cd flutter && git checkout 2.2.3 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter pub get`
+* Or Solution: you can just use "git checkout 2.8.1" to use a specific version. Example of my bash script:
+  `#!/bin/bash  if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter pub get`
+* `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter pub get`
