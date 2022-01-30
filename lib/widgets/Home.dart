@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 // Home widget - Stateful
 class HomePage extends StatefulWidget {
   HomePage({
-    required Key key,
-    required this.title,
-    required this.description,
+    Key? key,
+    this.title = 'Loading ...',
+    this.description = 'Loading ...',
   }) : super(key: key);
 
   // state: title, description

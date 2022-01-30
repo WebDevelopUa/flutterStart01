@@ -76,6 +76,19 @@ flutter config --enable-web
 * `#!/bin/bash  if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git  -b stable; fi && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter pub get`
 * `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter doctor --android-licenses && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web && flutter/bin/flutter pub get`
 * `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web && flutter/bin/flutter pub get`
+* `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && ls && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web && flutter/bin/flutter pub get`
+
+#### Fix error
 
 [Unsound null safety](https://dart.dev/null-safety/unsound-null-safety)
 [non-nullable](https://stackoverflow.com/questions/64560461/the-parameter-cant-have-a-value-of-null-because-of-its-type-in-dart)
+[Enabling null safety](https://stackoverflow.com/questions/64621051/how-to-enable-null-safety-in-flutter)
+
+``` 
+dart --version
+```
+
+````javascript
+environment:
+    sdk: '>=2.15.1 <3.0.0'
+````
