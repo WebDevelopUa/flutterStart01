@@ -1,13 +1,18 @@
 Flutter Start 01 - App v.2.8.1
 ---
 
+[DEMO of Web version]()
+
 ```
 flutter run
+flutter run -d chrome
+flutter build web
+flutter config --enable-web
 ```
 
 ---------------------
 
-* [Entrypoint](/lib/main.dart)
+* [Entrypoint](lib/main.dart)
 * [Packages](pubspec.yaml)
 
 ---------------------
@@ -54,3 +59,15 @@ flutter run
 * Android Studio => Appearance => Path Variables => KOTLIN_BUNDLED C:
   \Users\Dell\AppData\Roaming\Google\AndroidStudio2021.1\plugins\Kotlin\kotlinc
 * Android SDK => Optimize Disk Space
+
+------------------------
+
+### Build and Deploy a Flutter Web project on [Vercel](https://vercel.com)
+
+* Framework Preset: `Other`
+* Build Command: `flutter/bin/flutter build web --release`
+* Output Directory: `build/web`
+* Install Command:
+  `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && ls && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web`
+* Or: `
+  Solution: you can just use "git checkout 2.2.3" to use a specific version. Example of my bash script: #!/bin/bash  if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && cd flutter && git checkout 2.2.3 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter pub get`
