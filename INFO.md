@@ -1,6 +1,8 @@
 Flutter Start 01 - App v.2.8.1
 ---
 
+Idiotizm na grani genialnosti!
+
 ### Prerequisites:
 
 Doctor summary (to see all details, run flutter doctor -v):

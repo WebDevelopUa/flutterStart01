@@ -1,6 +1,15 @@
 Flutter Start 01 - App v.2.8.1
 ---
 
+```
+flutter run
+```
+
+---------------------
+
+* [Entrypoint](/lib/main.dart)
+* [Packages](pubspec.yaml)
+
 ---------------------
 
 ### TODO
@@ -38,7 +47,10 @@ Flutter Start 01 - App v.2.8.1
     * [JDK 17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 * [macOS install](https://docs.flutter.dev/get-started/install/macos)
 * [Linux install](https://docs.flutter.dev/get-started/install/linux)
-* [Android Studio Fix](https://intellij-support.jetbrains.com/hc/en-us/articles/360007568559-Start-Failed-Internal-error-recovering-IDE-to-the-working-state-after-the-critical-startup-error) => `netsh winsock reset`
-clear PATHs: `C:\Users\xxx\AppData\Roaming\JetBrains` ||`C:\Users\xxx\AppData\Local\Google` || `C:\Users\xxx\AppData\Local\npm-cache`
-* Android Studio => Appearance => Path Variables => KOTLIN_BUNDLED	C:\Users\Dell\AppData\Roaming\Google\AndroidStudio2021.1\plugins\Kotlin\kotlinc
+* [Android Studio Fix](https://intellij-support.jetbrains.com/hc/en-us/articles/360007568559-Start-Failed-Internal-error-recovering-IDE-to-the-working-state-after-the-critical-startup-error)
+  => `netsh winsock reset`
+  clear PATHs: `C:\Users\xxx\AppData\Roaming\JetBrains` ||`C:\Users\xxx\AppData\Local\Google`
+  || `C:\Users\xxx\AppData\Local\npm-cache`
+* Android Studio => Appearance => Path Variables => KOTLIN_BUNDLED C:
+  \Users\Dell\AppData\Roaming\Google\AndroidStudio2021.1\plugins\Kotlin\kotlinc
 * Android SDK => Optimize Disk Space
