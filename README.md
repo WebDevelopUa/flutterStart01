@@ -62,6 +62,21 @@ flutter config --enable-web
 
 ------------------------
 
+## Vercel Deploy Settings
+
+1. Framework Preset: `Other`
+2. Build Command: `ls && pwd`
+3. Output Directory: `build/web`
+4. Install Command:
+
+```shell
+if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter build web
+```
+
+```shell
+if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter clean && flutter/bin/flutter build web --release
+```
+
 ### Build and Deploy a Flutter Web project on [Vercel](https://vercel.com)
 
 * Framework Preset: `Other`
