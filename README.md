@@ -78,3 +78,4 @@ flutter config --enable-web
 * `if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && cd flutter && git checkout 2.8.1 && cd .. && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web && flutter/bin/flutter pub get`
 
 [Unsound null safety](https://dart.dev/null-safety/unsound-null-safety)
+[non-nullable](https://stackoverflow.com/questions/64560461/the-parameter-cant-have-a-value-of-null-because-of-its-type-in-dart)

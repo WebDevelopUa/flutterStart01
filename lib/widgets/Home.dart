@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 // Home widget - Stateful
 class HomePage extends StatefulWidget {
   HomePage({
-    Key key,
-    this.title,
-    this.description,
+    required Key key,
+    required this.title,
+    required this.description,
   }) : super(key: key);
 
   // state: title, description
@@ -39,7 +39,10 @@ class _HomePageState extends State<HomePage> {
             Text(widget.description),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme
+                  .of(context)
+                  .textTheme
+                  .headline4,
             ),
           ],
         ),
