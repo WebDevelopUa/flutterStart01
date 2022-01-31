@@ -14,7 +14,7 @@ class App extends StatelessWidget {
       onGenerateRoute: (RouteSettings settings) {
         return MaterialPageRoute(
           builder: (context) {
-            return HomePage(title: 'Home Page', description: 'x100');
+            return HomePage(title: 'Home', description: 'x100');
           },
         );
       },

@@ -79,16 +79,24 @@ Emulator => Wipe data
 
 ------------------------
 
-## Routing
+## Routing / MaterialAppNavigator
 
-* map based routing - routes
+* map based routing - routes (for predefined routes)
 * onGenerateRoute callback
-  - navigator.pushNAmed(context, '/xxx')
-  - onGenerateRoute called with '/xxx'
-  - parse the route name '/xxx'
-  - create instance of MENU_ITEM, pass in '/xxx'
+    - navigator.pushNamed(context, '/xxx')
+    - onGenerateRoute called with '/xxx'
+    - parse the route name '/xxx'
+    - create instance of MENU_ITEM, pass in '/xxx'
 
+------------------------
 
+## [Flutter elements](https://docs.flutter.dev/development/ui/widgets/material)
+
+* [ListView](https://docs.flutter.dev/cookbook/lists/basic-list)
+* [Mixed list](https://docs.flutter.dev/cookbook/lists/mixed-list)
+* [ListView class](https://api.flutter.dev/flutter/widgets/ListView-class.html)
+* [ListTile class](https://api.flutter.dev/flutter/material/ListTile-class.html)
+* [article](https://flutteragency.com/add-a-listview-to-a-column/)
 
 ------------------------
 

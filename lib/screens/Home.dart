@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/ItemsList.dart';
 
 // Home widget - Stateful
 class HomePage extends StatefulWidget {
@@ -34,15 +35,13 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         // Layout widgets
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
+            ItemsList(),
             Text(widget.description),
             Text(
               '$_counter',
-              style: Theme
-                  .of(context)
-                  .textTheme
-                  .headline4,
+              style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),
