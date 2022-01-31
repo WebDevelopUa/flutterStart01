@@ -79,6 +79,19 @@ Emulator => Wipe data
 
 ------------------------
 
+## Routing
+
+* map based routing - routes
+* onGenerateRoute callback
+  - navigator.pushNAmed(context, '/xxx')
+  - onGenerateRoute called with '/xxx'
+  - parse the route name '/xxx'
+  - create instance of MENU_ITEM, pass in '/xxx'
+
+
+
+------------------------
+
 ## Vercel Deploy Settings
 
 1. Framework Preset: `Other`
