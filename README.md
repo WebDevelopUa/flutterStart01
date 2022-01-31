@@ -4,16 +4,29 @@ Flutter Start 01 - App v.2.8.1
 [DEMO of Web version](https://flutter-start01.vercel.app)
 
 ```
+flutter pub get
+flutter run -v
 flutter run
 flutter run -d chrome
 flutter build web
 flutter config --enable-web
+flutter clean
+dart fix --dry-run
+dart fix --apply
 ```
+
+Emulator => Wipe data
 
 ---------------------
 
 * [Entrypoint](lib/main.dart)
 * [Packages](pubspec.yaml)
+    - [flutter_launcher_icons: ^0.9.2](https://pub.dev/packages/flutter_launcher_icons) => `flutter pub get`
+      => `flutter pub run flutter_launcher_icons:main `
+    - [android icons](android/app/src/main/res)
+    - ![android splash icons](android/app/src/main/res/drawable/splash_icon.png)
+    - ![android splash icons](android/app/src/main/res/drawable-v21/splash_icon.png)
+    - [ios icons](ios/Runner/Assets.xcassets/AppIcon.appiconset)
 
 ---------------------
 
@@ -59,6 +72,10 @@ flutter config --enable-web
 * Android Studio => Appearance => Path Variables => KOTLIN_BUNDLED C:
   \Users\Dell\AppData\Roaming\Google\AndroidStudio2021.1\plugins\Kotlin\kotlinc
 * Android SDK => Optimize Disk Space
+* [HEX Colors](https://www.colorhexa.com/84fca6)
+* [Free icons](https://www.freepik.com/free-icon/development_14967745.htm#query=progress&position=36&from_view=search)
+* [Icons](https://www.flaticon.com/free-icon/development_821501)
+* [Pic](https://www.freepik.com/free-vector/tropical-island-early-morning-sea-palms_20955981.htm#query=night%20sky&position=11&from_view=search)
 
 ------------------------
 
