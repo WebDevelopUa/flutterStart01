@@ -10,28 +10,38 @@ class ItemsList extends StatelessWidget {
         height: 200.0,
         child: Center(
           child: Column(
-             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextButton(
                   style: TextButton.styleFrom(
                     textStyle: const TextStyle(fontSize: 20),
                     padding: const EdgeInsets.all(10.0),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    print('Dart');
+                    // print(context);
+                      Navigator.pushNamed(context, '/dart');
+                  },
                   child: const Text('Dart')),
               TextButton(
                   style: TextButton.styleFrom(
                     textStyle: const TextStyle(fontSize: 20),
                     padding: const EdgeInsets.all(10.0),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    print('TypeScript');
+                    Navigator.pushNamed(context, 'typescript');
+                  },
                   child: const Text('TypeScript')),
               TextButton(
                   style: TextButton.styleFrom(
                     textStyle: const TextStyle(fontSize: 20),
                     padding: const EdgeInsets.all(10.0),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    print('JavaScript');
+                    Navigator.pushNamed(context, 'javascript');
+                  },
                   child: const Text('JavaScript'))
             ],
           ),

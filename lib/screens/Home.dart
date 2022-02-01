@@ -5,8 +5,8 @@ import '../widgets/ItemsList.dart';
 class HomePage extends StatefulWidget {
   HomePage({
     Key? key,
-    this.title = 'Loading ...',
-    this.description = 'Loading ...',
+    required this.title,
+    required this.description,
   }) : super(key: key);
 
   // state: title, description

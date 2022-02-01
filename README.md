@@ -96,7 +96,13 @@ Emulator => Wipe data
 * [Mixed list](https://docs.flutter.dev/cookbook/lists/mixed-list)
 * [ListView class](https://api.flutter.dev/flutter/widgets/ListView-class.html)
 * [ListTile class](https://api.flutter.dev/flutter/material/ListTile-class.html)
-* [article](https://flutteragency.com/add-a-listview-to-a-column/)
+* [Buttons](https://api.flutter.dev/flutter/material/TextButton-class.html)
+* [Article](https://flutteragency.com/add-a-listview-to-a-column/)
+
+### Debugging
+
+* [Standard logging events](https://docs.flutter.dev/development/tools/devtools/logging)
+* [Debugging Flutter apps programmatically](https://docs.flutter.dev/testing/code-debugging#logging)
 
 ------------------------
 
