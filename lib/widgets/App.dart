@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_start_01/screens/Home.dart';
-import 'package:flutter_start_01/screens/ItemDetail.dart';
-// import 'package:flutter_start_01/widgets/ItemsList.dart';
 
-// import '../screens/Home.dart';
+import '../screens/Home.dart';
+import '../screens/ItemDetail.dart';
 
 // root widget
 class App extends StatelessWidget {
@@ -36,7 +34,7 @@ class App extends StatelessWidget {
               final item = settings.name;
 
               return ItemDetail(item: item);
-                },
+            },
           );
         }
       },

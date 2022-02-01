@@ -5,14 +5,16 @@ Flutter Start 01 - App v.2.8.1
 
 ```
 flutter pub get
+flutter pub upgrade
+flutter pub outdated
 flutter run -v
 flutter run
 flutter run -d chrome
 flutter build web
 flutter config --enable-web
 flutter clean
-dart fix --dry-run
-dart fix --apply
+flutter doctor --android-licenses
+flutter create .
 ```
 
 Emulator => Wipe data
